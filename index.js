@@ -8,7 +8,7 @@ const geolocationRoutes = require('./Geolocation/Map/routes');
 const customersInputsRoutes = require('./Geolocation/Inputs/routes');
 require('dotenv').config();
 const port = process.env.PORT || 3000;
-const origin = process.env.ORIGIN || */'http://127.0.0.1:5500';
+const origin = process.env.ORIGIN || 'http://127.0.0.1:5500';
 const smtp = 'https://smtpjs.com/v3/smtpjs.aspx?';
 
 
